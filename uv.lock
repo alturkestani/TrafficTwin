@@ -725,6 +725,7 @@ dependencies = [
     { name = "sumolib" },
     { name = "traci" },
     { name = "typer" },
+    { name = "tzdata" },
     { name = "uvicorn" },
 ]
 
@@ -755,6 +756,7 @@ requires-dist = [
     { name = "sumolib", specifier = ">=1.24" },
     { name = "traci", specifier = ">=1.24" },
     { name = "typer", specifier = ">=0.12" },
+    { name = "tzdata", specifier = ">=2026.5" },
     { name = "uvicorn", specifier = ">=0.29" },
 ]
 

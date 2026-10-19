@@ -23,6 +23,10 @@ of `PROJECT.md` section 12.
 - The waterfront evacuation demo in the tahlia window (`evac_corniche_hamra`) and its film
   scenario: the public evacuation demo is Obhur.
 
+### Fixed
+- `tzdata` is a direct dependency, so prayer times (`ZoneInfo("Asia/Riyadh")` in
+  `sim/daytypes/prayer.py`) work without a system time zone database (bare containers, Windows).
+
 ## [0.1.0] - 2026-10-17: first public release
 
 ### Added
